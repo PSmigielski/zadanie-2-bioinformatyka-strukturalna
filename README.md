@@ -14,9 +14,9 @@ pip install biopython
 The script takes a path to a FASTA file containing two sequences. To run the script, use the following command:
 
 python script_name.py <fasta_path>
-
-	•	<fasta_path>: Path to the FASTA file with two sequences.
-
+```
+<fasta_path>: Path to the FASTA file with two sequences.
+```
 ## Example
 
 Input FASTA File
@@ -60,5 +60,5 @@ Explanation of Output
 1.	Score Matrix: The alignment score matrix shows the cumulative scores for aligning subsequences of the two sequences with gap penalties, match scores, and mismatch scores.
 2.	Alignment Path: Displays the optimal alignment between the two sequences using:
     - _ to indicate gaps.
-    - Matching nucleotides are shown with | and
+    - Matching nucleotides are shown with |
     - Mismatched nucleotides are shown with .
